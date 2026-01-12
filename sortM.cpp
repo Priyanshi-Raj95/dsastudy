@@ -2,6 +2,9 @@
 #include <climits>
 using namespace std;
 
+//O(n+m)
+// if(n>>>>m) then O(n)
+// if(n<<<<m) then O(m)
 void sortM(int mtrx[][4],int n,int m,int key){
     //Brute force
     for(int i=0;i<n;i++){
