@@ -54,7 +54,7 @@ void binStrin(int n, int lstPlace, string ans){
 int main(){
     int n;
     cin>>n;
-    cout<<tp(n)<<endl;
+    cout<<tp(n)<<endl;  
     string str = "Priyanshi";
     string ans = "";
     int map[26] = {false};
